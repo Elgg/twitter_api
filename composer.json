@@ -1,8 +1,17 @@
 {
-    "name": "elgg/twitter_api",
-    "type": "elgg-plugin",
-    "require": {
-        "composer/installers": ">=1.0.8"
-    },
-    "license": "GPL-2.0"
+	"name": "elgg/twitter_api",
+	"description": "Allows users to log in with their Twitter account and provides access to the Twitter API",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "twitter"],
+	"license": "GPL-2.0",
+	"support": {
+		"source": "https://github.com/elgg/twitter_api",
+		"issues": "https://github.com/elgg/twitter_api/issues"
+	},
+	"require": {
+		"composer/installers": ">=1.0.8"
+	},
+	"conflict": {
+		"elgg/elgg": "<1.9"
+	}
 }
